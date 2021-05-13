@@ -1,0 +1,92 @@
+{
+  "forumHomePage": {
+    "forumHomePageUrl": "http://baa.bitauto.com",
+
+    "carTabList": ".car-form > span",
+    "areaTabList": ".area-form > span",
+    "themeTabList": ".theme-form > span",
+
+
+    "carForum": ".r-item-wrapper > [href=\"/aodia6l/\"]",
+    "areaFroum": "[title = \"夜上海社区\"]",
+    "themeFroum": "[title = \"测试2社区\"]",
+
+    "carForumAssert": "/aodia6l/",
+    "areaForumAssert": "shanghai",
+    "themeForumAssert": "a2402",
+
+    "lateView": ".fp-item",
+
+    "moreLink": ".more-link",
+    "jingxuan": "jingxuan",
+
+    "Dailypost": ".jingxuanribao-only > .report-list-body > [data-index=\"0\"] > .l-link",
+    "Dailypostclick": ".jingxuanribao-only > .report-list-body > [data-index=\"0\"] > .l-link > .forum-img-wrapper",
+    "forumDetail": "html",
+
+    "editorRecommendPost": ".zuixinjinghuatie-only > .report-list-body > [data-index=\"0\"]",
+
+    "moreActivity": ".article-title > a",
+    "activityAssert": "/bbs/act/index.html"
+  },
+
+  "forumList": {
+    "forumListUrl": "http://baa.bitauto.com/a2402",
+
+    "forumSwitch": ".forum-switch",
+    "SwitchTab": ".forum-layer-wrapper",
+
+    "publishTopic": ".right-item-txt",
+    "loginPageAssert": ".current",
+
+    "askTab": "[href=\"/a2402/index-2-0-1.html\"]",
+    "askTopic": "[data-index=\"0\"]",
+    "forumDetailAssert": ":nth-child(1) > .btn",
+
+    "nextPage": "[data-current=\"next\"]",
+    "secondPageAssert": ".active"
+
+  },
+  "forumDetail":{
+    "commonPostUrl": "http://baa.bitauto.com/a2402/thread-37389.html",
+    "askPostUrl": "http://baa.bitauto.com/a2402/ask-36957.html",
+    "playPostUrl": "http://baa.bitauto.com/a2402/play-39829.html",
+    "videoPostUrl": "http://baa.bitauto.com/a2402/thread-39569.html",
+    "miniPostUrl": "http://baa.bitauto.com/a2402/thread-38477.html",
+
+    "forumDetailAssert": ".post-time",
+
+    "publishTopic":".operation-list > .fr > .add-post-manage > .right-item-txt",
+    "loginPageAssert": ".current",
+
+    "replyButton": ".operation-list > .fr > .btn",
+
+
+    "inputUsername": "input[name=txt_LoginName]",
+    "inputPassword": "input[name=txt_Password]",
+    "loginsubmit": "#btn_Login",
+
+    "replyText": "#post-reply > .reply-text",
+    "replyPublishButton": ".postright > .operation > .btn"
+
+  },
+  "forumPublish":{
+    "forumPublishUrl": "http://i.yiche.com/authenservice/login.aspx?ReturnUrl=http://baa.bitauto.com/bbs/a2402/posttopic-0.html?postType=1",
+    "calcelIfrmeFlag": ".upd-draft >.pop-window",
+    "cancelIframe": ".upd-draft > .pop-detail > .operation > .btn-default",
+    "dataType1": "[data-post-type=\"1\"]",
+    "dataType2": "[data-post-type=\"2\"]",
+    "dataType3": "[data-post-type=\"3\"]",
+    "titleTextFiled": "#post-title",
+    "editTextFiled": ".editor-window",
+    "publishButton": ".post-content > :nth-child(2) > .btn-primary"
+
+  },
+  "loginPage": {
+    "inputUsername": "input[name=txt_LoginName]",
+    "inputPassword": "input[name=txt_Password]",
+    "loginPageAssert": ".current"
+  }
+
+
+}
