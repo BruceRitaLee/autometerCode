@@ -16,6 +16,7 @@ context('论坛列表页测试',()=>{
         cy.get(forum.askTab).click()
         forum.clickAndAssert(null,1,forum.askTopic,forum.topicDetail,"返回列表")
     })
+    //我就想试试这个注解是怎么回事
     it('滑动到底部点击next，查看跳转到第二页',()=>{
         forum.visit()
         forum.clickAndAssert(2000,0,forum.nextFlag,forum.secondPage,'2')
